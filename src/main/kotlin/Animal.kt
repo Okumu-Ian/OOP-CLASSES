@@ -1,10 +1,9 @@
 //class header with empty constructor
 class Animal () {
-
-//    //secondary constructor
-//    constructor(name:String){
-//        println("The animal name is: $name")
-//    }
+    //secondary constructor
+    constructor(name:String) :this() {
+        println("The animal name is: $name")
+    }
 
     //animal properties
     var type:String = "Herbivore"

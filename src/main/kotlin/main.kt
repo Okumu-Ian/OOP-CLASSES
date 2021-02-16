@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
     cat.eat("Lizards")
 
     //Using secondary constructor
-    //val human = Animal("Human")
+     Animal("Human")
 
 
 }
